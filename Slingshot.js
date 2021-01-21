@@ -1,4 +1,4 @@
-class SlingShot{
+class slingshot{
     constructor(bodyA, pointB){
         var options = {
             bodyA: bodyA,
@@ -44,5 +44,7 @@ class SlingShot{
             pop();
         }
     }
-    
+    attach(body){
+        this.sling.bodyA=body;
+    }
 }
